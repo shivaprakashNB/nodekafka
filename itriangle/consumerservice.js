@@ -34,7 +34,7 @@ try {
  devicemodel = {"deviceid":rdata[6], "date":rdata[9],"time":rdata[10],"lat":rdata[11],"long":rdata[13],"speed":rdata[15], "DI":rdata[45],"A1":rdata[48],"A2":rdata[49],"deltadistance(m)":rdata[50], "nodeTime":'today'};
 	  console.log(devicemodel);
 	  console.log(devicemodel.deviceid);
-	   DI = devicemodel.DI.split(''); // empty string separator
+	   DI = devicemodel.DI.split(''); //  empty string separator
 			console.log('DI1',DI[0] );
 	  fetchmodelname();	  
   })
