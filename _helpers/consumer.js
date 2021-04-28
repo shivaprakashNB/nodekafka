@@ -34,6 +34,7 @@ try {
   consumer.on('message', async function (message) {
    // raw.dataRaw(message.value);
     //ARGO4500.multibatch(message.value);
+    
     //ARGO4500.multipacket(message.value);
     //ARGO4000.multibatch(message.value);
     // ARGO4000.multipacket(message.value);
