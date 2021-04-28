@@ -8,12 +8,17 @@
     "cors": "^2.8.5",
     "dateformat": "^3.0.3",
     "express": "^4.17.1",
+    "hex2ascii": "0.0.3",
+    "is-empty": "^1.2.0",
     "kafka-node": "^5.0.0",
     "moment": "^2.29.1",
     "mongodb": "^3.6.3",
     "mongoose": "^5.10.16",
     "net": "^1.0.2",
-    "pg": "^8.3.3"
+    "node-fetch": "^2.6.1",
+    "pg": "^8.3.3",
+    "shortid": "^2.2.16",
+    "trim-character": "^2.0.1"
   },
   "devDependencies": {},
   "scripts": {

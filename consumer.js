@@ -1,1 +1,0 @@
-var data1 = require('./itriangle/consumerservice');
